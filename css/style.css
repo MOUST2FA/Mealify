@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: segoe ui light;
+}
+
+.contenr {
+    width: 87%;
+    margin: auto;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .nav {
+    width: 40%;
+
+}
+
+.navbar .nav h1 {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    font-size: 35px;
+    position: relative;
+}
+
+.navbar .nav h1::after {
+    content: "";
+    background-color: #ce2838;
+    width: 6px;
+    height: 6px;
+    top: 48px;
+    left: 115px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.navbar .bar {
+    width: 50%;
+
+}
+
+.navbar .bar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar .bar ul a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar .bar ul a:hover{
+    text-decoration:underline;
+}
+
+.navbar .icon i {
+    width: 10%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+
+.home {
+    background-color: #eeeeee;
+
+}
+
+.home .contenr {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.home .HOMEtext {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.home .HOMEtext h2 {
+    font-size: 70px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.home .HOMEtext p {
+    padding: 20px 40px 30px 0px;
+}
+
+.home .HOMEtext .buttentext .but {
+    width: 150px;
+    height: 45px;
+    background-color: #ce2838;
+    text-decoration: none;
+    border: 1px solid red;
+    color: #fff;
+    margin-right: 30px;
+    padding: 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.home .HOMEtext .buttentext .but:hover {
+    background-color: red;
+}
+
+.home .HOMEtext .buttentext .but1 {
+    width: 150px;
+    height: 45px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    transition: color 1s;
+
+}
+
+.home .HOMEtext .buttentext .but1:hover {
+    color: red;
+
+}
+
+.home .HOMEtext .buttentext .but1 i {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.home .food {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home .food img {
+    width: 80%;
+
+
+}
+
+
+
+.chef {
+    text-align: center;
+    margin: 30px 0px 60px 0px;
+    position: relative;
+}
+
+.chef h6 {
+    font-size: 15px;
+    padding: 60px 0px 10px 0px;
+    color: #7f7f90;
+}
+
+.chef h2 {
+    font-size: 40px;
+    color: #ce2838;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.chef h2::after {
+    content: "Chefs";
+    position: absolute;
+    font-size: 40px;
+    top: 91px;
+    right: 458px;
+    color: black;
+}
+
+.chef h2::before {
+    content: "Our";
+    position: absolute;
+    font-size: 40px;
+    top: 91px;
+    left: 471px;
+    color: black;
+
+
+}
+
+.chefimg {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chefimg .chefimgtext {
+    width: 32%;
+    text-align: center;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.chefimg .chefimgtext .chefhover {
+    background-color: antiquewhite;
+    opacity: 0.4;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    height: 140px;
+    right: -70px;
+    top: 50px;
+    transition: right 1s 0.5s;
+}
+
+.chefimg .chefimgtext:hover .chefhover {
+    right: 30px;
+    top: 50px;
+}
+
+.chefimg .chefimgtext .chefhover i {
+    padding: 10px;
+}
+
+.chefimg .chefimgtext:hover {
+    box-shadow: -webkit-box-shadow: 1px 2px 41px 7px rgba(94, 94, 94, 0.37);
+    -moz-box-shadow: 1px 2px 41px 7px rgba(94, 94, 94, 0.37);
+    box-shadow: 1px 2px 41px 7px rgba(94, 94, 94, 0.537);
+    Copy Text;
+
+}
+
+.chefimg .chefimgtext img {
+    width: 100%;
+
+}
+
+.chefimg .chefimgtext h2 {
+    font-size: 25px;
+    padding: 20px 0px 10px 0px;
+}
+
+.chefimg .chefimgtext h6 {
+    font-size: 17px;
+    color: #7f7f90;
+
+}
+
+.chefimg .chefimgtext p {
+    font-size: 17px;
+    color: #7f7f90;
+    padding: 10px 10px;
+}
+
+
+
+
+
+.conte {
+    background-color: #eeeeee;
+}
+
+.contenr1 {
+    width: 87%;
+    margin: auto;
+}
+
+.Check {
+    text-align: center;
+
+}
+
+.Check span {
+    color: black;
+}
+
+.Check h6 {
+    font-size: 17px;
+    color: #7f7f90;
+    padding: 60px 0px 20px 0px;
+
+}
+
+.Check h2 {
+    font-size: 40px;
+    color: #ce2838;
+    font-family: 'Amatic SC', cursive;
+    padding-bottom: 50px;
+
+}
+
+.foodimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 75rem;
+    align-items: center;
+
+}
+
+.foodimg .foodimg1 {
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.foodimg .foodimg1 img {
+    width: 100%;
+}
+
+.foodimg .foodimg1 .child1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    transition: top 1s;
+    background-color: #00000096;
+    ;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+
+}
+
+.foodimg .foodimg1:hover .child1 {
+    top: 0px;
+
+}
+
+.foodimg .foodimg1 .child1 p{
+    padding: 10px 20px;
+}
+
+
+
+
+
+.contenar1 {
+    width: 87%;
+    margin: auto;
+}
+
+.contac {
+    text-align: center;
+}
+
+.contac h6 {
+    margin-top: 30px;
+    padding: 60px 0px 10px 0px;
+    font-size: 17px;
+    color: #7f7f90;
+
+}
+
+.contac h2 {
+    font-size: 40px;
+    padding-bottom: 60px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.contac h2 span {
+    color: #ce2838;
+}
+
+iframe {
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+}
+
+.Address {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Address h2 {
+    color: #717070;
+    padding-bottom: 10px;
+
+}
+
+.Address1 {
+    background-color: #f5f5f5;
+    width: 48%;
+    padding: 40px 0px 40px 20px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+}
+
+.Address1 i {
+    font-size: 30px;
+    padding: 15px 15px;
+    background-color: #ce2838;
+    border-radius: 50%;
+    margin: 8px 10px;
+    color: #fff;
+}
+
+.Address2 {
+    background-color: #f5f5f5;
+    width: 47%;
+    padding: 40px 0px 40px 20px;
+    margin: 10px 0px 10px 10px;
+    display: flex;
+}
+
+.Address2 i {
+    font-size: 30px;
+    padding: 15px 15px;
+    background-color: #ce2838;
+    border-radius: 50%;
+    margin: 8px 10px;
+    color: #fff;
+
+}
+
+
+.Address3 {
+    background-color: #f5f5f5;
+    width: 48%;
+    padding: 40px 0px 40px 20px;
+    margin: 0px 0px 30px 0px;
+    display: flex;
+}
+
+.Address3 i {
+    font-size: 30px;
+    padding: 15px 15px;
+    background-color: #ce2838;
+    border-radius: 50%;
+    margin: 8px 10px;
+    color: #fff;
+
+}
+
+
+.Address4 {
+    background-color: #f5f5f5;
+    width: 47%;
+    padding: 40px 0px 40px 20px;
+    margin: 0px 0px 30px 10px;
+    display: flex;
+
+}
+
+.Address4 i {
+    font-size: 30px;
+    padding: 15px 15px;
+    background-color: #ce2838;
+    border-radius: 50%;
+    margin: 8px 10px;
+    color: #fff;
+
+}
+
+.label .label1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+
+.label .label1 .inp1 {
+    width: 49.5%;
+    height: 50px;
+    padding: 10px;
+}
+
+.label .label1 .inp2 {
+    width: 49.5%;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.label2 {
+    display: flex;
+}
+
+.inpu1 input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.tex textarea {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.but0 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.but0 button {
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #ce2838;
+    border: #ce2838;
+    border-radius: 50px;
+    transition: background-color 1s;
+}
+
+.but0 button:hover {
+    background-color: red;
+}
+
+
+
+.demo {
+    background-color: #070606;
+}
+
+.contener4 {
+    width: 87%;
+    margin: auto;
+    display: flex;
+}
+
+.contener4 .mealif {
+    width: 28%;
+}
+
+.mealif h2 i {
+    font-size: 20px;
+    background-color: #ce2838;
+}
+
+.contener4 .mealif i {
+    font-size: 25px;
+    margin-left: 50px;
+    color: #fff;
+
+}
+
+.contener4 .mealif h2 {
+    font-size: 35px;
+    padding: 30px 10px 20px 20px;
+    color: #fff;
+
+}
+
+.contener4 .mealif p {
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+    color: #fff;
+
+}
+
+.contener4 .mealif h3 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.contener4 .mealif .meal {
+    width: 90%;
+    height: 2px;
+    background-color: #949393;
+    margin: auto;
+    margin: 20px;
+}
+
+.contener4 .link {
+    width: 44%;
+
+}
+
+.contener4 .link h3 {
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 0px 10px;
+    color: #fff;
+
+}
+
+.contener4 .link p {
+    font-size: 20px;
+    padding: 0px 10px 25px 10px;
+    color: #fff;
+
+
+}
+
+.contener4 .link input {
+    width: 70%;
+    height: 40px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+
+}
+
+.contener4 .link button {
+    width: 23%;
+    height: 40px;
+    background-color: #ce2838;
+    border: #ce2838;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color 1s;
+}
+
+.contener4 .link button:hover {
+    background-color: red;
+}
+
+.contener4 .link button i {
+    font-size: 17px;
+}
+
+.contener4 .link h2 {
+    padding: 10px;
+    color: #fff;
+
+}
+
+.contener4 .link .ulli {
+    display: flex;
+}
+
+.link .ulli .ul1 {
+    width: 50%;
+}
+
+.link .ulli .ul1 ul {
+    list-style: none;
+    color: #fff;
+
+}
+
+.link .ulli .ul1 ul li {
+    padding: 0px 10px 15px 10px;
+}
+
+.contener4 .namper {
+    width: 28%;
+
+}
+
+.contener4 .namper h3 {
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 0px 10px;
+    color: #fff;
+
+}
+
+.contener4 .namper h6 {
+    font-size: 15px;
+    margin: 10px 10px;
+    color: #fff;
+}
+
+.contener4 .namper h6 i {
+    font-size: 20px;
+    padding: 10px;
+    color: #ce2838;
+}
+
+
+
+
+
+@media all and (max-width:575px) {
+}
+
+@media all and (min-width:576) and (max-width:767) {
+
+}
+
+@media all and (min-width:7668) and (max-width:991) {
+
+}
+
+@media all and (min-width:992) and (max-width:1199) {
+
+}
+
+@media all and (min-width:1200) {
+    
+}
